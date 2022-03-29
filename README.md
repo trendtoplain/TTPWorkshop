@@ -1,2 +1,2 @@
 # scan
-no way
+a fast scan 
