@@ -1,2 +1,2 @@
 # scan
-a fast scan 
+a fast force scan 
