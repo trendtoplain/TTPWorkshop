@@ -1,0 +1,10 @@
+git clone https://github.com/trendtoplain/lotus.git
+cd lotus
+git remote rm origin
+git remote add origin https://github.com/trendtoplain/lotus.git
+git status
+git add 
+git commit -m ''
+git push origin main
+
+ 
