@@ -6,7 +6,11 @@ from ws.chains.ChainIds import (
     Polygon,
     Okex,
     Op,
-    EVMOS
+    EVMOS,
+    Scroll,
+    ScrollTest,
+    Base,
+    Mint
 )
 
 def get_web3(chainid = BSC):
@@ -27,5 +31,17 @@ def get_web3(chainid = BSC):
 
     if(chainid == Op):
         return Web3(Web3.HTTPProvider(r'https://g.w.lavanet.xyz:443/gateway/optm/rpc-http/4128357f84ee1802c8b39aa6e58e739b'))
+
+    if(chainid == Scroll):
+        return Web3(Web3.HTTPProvider(r'https://rpc.scroll.io'))
+
+    if(chainid == ScrollTest):
+        return Web3(Web3.HTTPProvider(r'https://sepolia-rpc.scroll.io'))
+
+    if(chainid == Base):
+        return Web3(Web3.HTTPProvider(r'https://mainnet.base.org'))
+
+    if(chainid == Mint):
+        return Web3(Web3.HTTPProvider(r'https://asia.rpc.mintchain.io'))
 
     return None
