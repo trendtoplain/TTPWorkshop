@@ -1,4 +1,3 @@
-# use to get balanceOf ERC20 / ERC721
 ABI = [ {
       "inputs": [
         {
