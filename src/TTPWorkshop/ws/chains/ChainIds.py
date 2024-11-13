@@ -15,3 +15,7 @@ BSCTest = 97
 OkexTest = 65
 
 PolygonTest = 80001
+
+Base = 8453
+
+Mint = 185
